@@ -1,6 +1,5 @@
 const pool = require('../models/index');
 
-
 const getAllCurriculum = async (req, res) => {
     try {
         const people = await pool.query('SELECT * FROM personal');
